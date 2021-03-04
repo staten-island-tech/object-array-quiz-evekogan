@@ -45,8 +45,7 @@ console.table(democratsTwo); //WHY DOESN'T THIS WORK >:(
   } else {
     alert("LBJ was one and done");
   }
-}); */
-const LBJ = presidents.filter(
+}); */ const LBJ = presidents.filter(
   (president) => president.name === "Lyndon Johnson"
 );
 
